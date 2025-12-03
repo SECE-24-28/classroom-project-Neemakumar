@@ -1,5 +1,6 @@
 import React from "react";
-import { TrustedByStyle } from "./trusted-by-style";
+import { TrustedByStyle } from "./trusted-by-style.js";
+
 const TrustedbyComponent = () => {
   return (
     <TrustedByStyle>
