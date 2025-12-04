@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neemasree - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 2.5rem;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #3498db;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .job, .education-item {
+            margin-bottom: 20px;
+        }
+        .job h3, .education-item h3 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .job-meta, .education-meta {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .download-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        @media print {
+            .download-btn { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="window.print()" class="download-btn">Print/Save as PDF</a>
+    
+    <div class="header">
+        <h1>Neemasree</h1>
+        <p>Computer Science Engineering Student & Software Developer</p>
+        <p>Email: neemasree@example.com | Phone: +1 (234) 567-890</p>
+        <p>LinkedIn: linkedin.com/in/neemasree | GitHub: github.com/neemasree</p>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Passionate and dedicated Computer Science and Engineering student (CSE – Section C) with strong interest in software development, artificial intelligence, and full-stack application design. Experienced in building real-world projects with Python, C++, Java, Django, React, and MongoDB. Focus on creating complete end-to-end solutions with clean logic and structured implementation.</p>
+    </div>
+
+    <div class="section">
+        <h2>Key Strengths</h2>
+        <ul>
+            <li>Strong problem-solving ability with attention to detail</li>
+            <li>Quick learner able to break complex topics into simple logic</li>
+            <li>Consistent with studies and exam preparation</li>
+            <li>Passionate about building meaningful software solutions</li>
+            <li>Experience with end-to-end application development</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        
+        <div class="education-item">
+            <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+            <div class="education-meta">CSE – Section C | Currently Pursuing</div>
+            <p>Relevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Database Systems, Machine Learning, Software Engineering</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">React (Vite)</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Algorithms</span>
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">STL</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        
+        <div class="job">
+            <h3>Monetra – AI-Based Expense Tracker</h3>
+            <div class="job-meta">Django & MongoDB Project | 2024</div>
+            <ul>
+                <li>AI-powered expense tracking with emotion prediction and habit analysis</li>
+                <li>Technologies: Django, MongoDB, Python, Machine Learning</li>
+                <li>Features: Regret analysis, gamified savings, graphical insights</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>SafeNest – Crisis Support & Shelter Finder</h3>
+            <div class="job-meta">Backend System | 2024</div>
+            <ul>
+                <li>Backend system for finding safe shelters and emergency support</li>
+                <li>Technologies: Django, MongoDB</li>
+                <li>Features: Location-based shelter search, crisis support resources</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>ALLAY – Emotional Support App</h3>
+            <div class="job-meta">Frontend Project | 2024</div>
+            <ul>
+                <li>Multi-page nighttime mood check-in interface</li>
+                <li>Technologies: HTML, CSS, JavaScript</li>
+                <li>Features: Responsive design, mood tracking interface</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Additional Projects</h3>
+            <div class="job-meta">Various Technologies | 2023-2024</div>
+            <ul>
+                <li>Chat Application using C++ STL (deque, unordered_map)</li>
+                <li>Real Estate Management System with MongoDB</li>
+                <li>Sports League Organizer in Java with live score simulation</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>AI/ML Knowledge</h2>
+        <ul>
+            <li>Regression Analysis and Implementation</li>
+            <li>Naive Bayes Classification</li>
+            <li>Clustering Algorithms</li>
+            <li>L1/L2 Regularization Techniques</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Career Interests</h2>
+        <ul>
+            <li>Software Engineering - Building scalable applications</li>
+            <li>AI/ML Development - Creating intelligent solutions</li>
+            <li>Full-Stack Development - End-to-end system design</li>
+        </ul>
+    </div>
+</body>
+</html>
