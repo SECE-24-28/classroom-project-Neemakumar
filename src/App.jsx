@@ -1,10 +1,10 @@
 import React from "react";
-import PositionExampleComponent from "./position-example/position-example-component.jsx";
+import OurPromisesComponent from "./our-promises/our-promises.js";
 
 function App() {
   return (
     <div>
-      <PositionExampleComponent/>
+      <OurPromisesComponent/>
     </div>
   );
 }
