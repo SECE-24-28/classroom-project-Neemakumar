@@ -1,10 +1,10 @@
 import React from "react";
-import OurPromisesComponent from "./impact-at-glance/impact-at-glance-component.jsx";
+import PositionExampleComponent from "./position-example/position-example-component.jsx";
 
 function App() {
   return (
     <div>
-      <OurPromisesComponent />
+      <PositionExampleComponent/>
     </div>
   );
 }
